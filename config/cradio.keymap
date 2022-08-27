@@ -51,9 +51,9 @@
 
 	raise_layer {
 		bindings = <
-		&kp N1         &kp N2      &kp N3        &kp N4        &kp N5    			   &kp N6    &kp N7        &kp N8    &kp N9     &kp N0
-		&trans         &kp K_MUTE  &kp K_VOL_UP  &kp K_VOL_DN  &kp K_PP 			   &kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
-		&kp LC(LA(F1)) &kp LC(LA(F2))  &kp LC(LA(F3)) &trans   &kp K_PREV    		 &kp K_NEXT &trans &trans &trans &trans
+		&kp N1         &kp N2      &kp N3        &kp N4        &kp N5    			   &kp N6     &kp N7        &kp N8    &kp N9      &kp N0
+		&trans         &kp K_MUTE  &kp C_VOL_UP  &kp C_VOL_DN  &kp C_PP 			   &kp LEFT   &kp DOWN      &kp UP    &kp RIGHT   &trans
+		&kp LC(LA(F1)) &kp LC(LA(F2))  &kp LC(LA(F3)) &trans   &kp C_PREV    		 &kp C_NEXT &trans &trans &trans &trans
 					                                        &trans   &kp SPACE  			 &trans  &trans
 		>;
 		};
