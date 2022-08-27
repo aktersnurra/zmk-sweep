@@ -33,28 +33,28 @@
 
     default_layer {
       bindings = <
-        &kp Q       &kp W      &kp F       &kp P       &kp B 						&kp J    &kp L       &kp U       &kp Y      &kp SCLN
-        &mt RMETA A &mt LALT R &mt LCTRL S &mt LSHFT T &kp G 			      &td_mesc &mt LSHFT N &mt LCTRL E &mt LALT I &mt RMETA O
-        &kp Z       &kp X      &kp C       &kp D       &kp V				    &kp K    &kp H       &kp CMMA    &kp DOT    &kp SLASH
-                                           &kp RET    &mt LOWER SPACE  				&mt RAISE BSPC &kp TAB
+        &kp Q       &kp W      &kp F       &kp P       &kp B 						      &kp J          &kp L       &kp U       &kp Y      &kp SCLN
+        &mt RMETA A &mt LALT R &mt LCTRL S &mt LSHFT T &kp G 			            &td_mesc       &mt LSHFT N &mt LCTRL E &mt LALT I &mt RMETA O
+        &kp Z       &kp X      &kp C       &kp D       &kp V				          &kp K          &kp H       &kp CMMA    &kp DOT    &kp SLASH
+                                           &kp RET     &lt LOWER SPACE  			&lt RAISE BSPC &kp TAB
       >;
 		};
 
   lower_layer {
 		bindings = <
-      &kp GRAVE  &kp EXCL    &kp PRCNT    &kp DLLR    &kp AT		      &kp PIPE &kp HASH &kp ASTRK &kp AMPS &kp CARET
-      &trans     &kp LBKT    &kp LPAR      &trans     &kp APOS 		    &kp DQT &trans  &kp EQL &kp MINUS  &kp BSLH
-      &trans     &kp RBKT    &kp RPAR      &trans     &trans 	        &trans &trans &trans &trans  &trans
-                                           &trans     &trans  			  &kp BSPC &trans
+      &kp GRAVE     &kp EXCL   &kp PRCNT   &kp DLLR    &kp AT		              &kp PIPE       &kp HASH    &kp ASTRK   &kp AMPS   &kp CARET
+      &trans        &kp LBKT   &kp LPAR    &trans      &kp APOS 		          &kp DQT        &trans      &kp EQL     &kp MINUS  &kp BSLH
+      &trans        &kp RBKT   &kp RPAR    &trans      &trans 	              &trans         &trans      &trans      &trans     &trans
+                                           &trans      &trans  			          &kp BSPC       &trans
 		>;
 		};
 
 	raise_layer {
 		bindings = <
-		&kp N1  &kp N2  &kp N3  &kp N4  &kp N5    			                 &kp N6  &kp N7 &kp N8 &kp N9 &kp N0
-		&trans  &kp K_MUTE  &kp K_VOL_UP  &kp K_VOL_DN  &kp K_PP 			   &kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
-		&kp LC(LA(F1)) &kp LC(LA(F2))  &kp LC(LA(F3)) &trans   &kp K_PREV    			               &kp K_NEXT &trans &trans &trans &trans
-					                                  &trans &kp SPACE  				 &trans  &trans
+		&kp N1         &kp N2      &kp N3        &kp N4        &kp N5    			   &kp N6    &kp N7        &kp N8    &kp N9     &kp N0
+		&trans         &kp K_MUTE  &kp K_VOL_UP  &kp K_VOL_DN  &kp K_PP 			   &kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
+		&kp LC(LA(F1)) &kp LC(LA(F2))  &kp LC(LA(F3)) &trans   &kp K_PREV    		 &kp K_NEXT &trans &trans &trans &trans
+					                                        &trans   &kp SPACE  			 &trans  &trans
 		>;
 		};
 	};
