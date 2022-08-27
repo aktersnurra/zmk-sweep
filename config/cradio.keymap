@@ -24,7 +24,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_MESC";
             #binding-cells = <0>;
-            tapping-term-ms = <125>;
+            tapping-term-ms = <175>;
             bindings = <&kp M>, <&kp ESC>;};
     };
 
@@ -35,7 +35,7 @@
       bindings = <
         &kp Q       &kp W      &kp F       &kp P       &kp B 						      &kp J          &kp L       &kp U       &kp Y      &kp SCLN
         &mt RMETA A &mt LALT R &mt LCTRL S &mt LSHFT T &kp G 			            &td_mesc       &mt LSHFT N &mt LCTRL E &mt LALT I &mt RMETA O
-        &kp Z       &kp X      &kp C       &kp D       &kp V				          &kp K          &kp H       &kp CMMA    &kp DOT    &kp FSLH
+        &kp Z       &kp X      &kp C       &kp D       &kp V				          &kp K          &kp H       &kp CMMA    &kp DOT    &kp N1
                                            &kp RET     &lt LOWER SPACE  			&lt RAISE BSPC &kp TAB
       >;
 		};
