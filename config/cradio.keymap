@@ -44,7 +44,7 @@
 		bindings = <
       &kp GRAVE     &kp EXCL   &kp PRCNT   &kp DLLR    &kp AT		              &kp PIPE       &kp HASH    &kp ASTRK   &kp AMPS   &kp CARET
       &trans        &kp LBKT   &kp LPAR    &trans      &kp APOS 		          &kp DQT        &trans      &kp EQL     &kp MINUS  &kp BSLH
-      &trans        &kp RBKT   &kp RPAR    &trans      &trans 	              &trans         &trans      &trans      &trans     &trans
+      &trans        &kp RBKT   &kp RPAR    &trans      &trans 	              &trans         &kp SLASH   &trans      &trans     &trans
                                            &trans      &trans  			          &kp BSPC       &trans
 		>;
 		};
